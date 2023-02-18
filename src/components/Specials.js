@@ -1,8 +1,6 @@
 import bruchetta from "../assets/images/bruchetta.svg";
 import salad from "../assets/images/greek-salad1.jpg";
 import dessert from "../assets/images/lemon-dessert1.jpg";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 
 function Specials() {
   return (

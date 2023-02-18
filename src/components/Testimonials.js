@@ -1,8 +1,6 @@
-import ratings from "../assets/icons/rating.png";
 import profile1 from "../assets/images/profile1.jpg";
 import profile2 from "../assets/images/profile2-copy-0.jpg";
 import profile3 from "../assets/images/profile3.jpg";
-import profile4 from "../assets/images/profile2.jpg";
 
 function Testimonials() {
   return (
@@ -13,7 +11,7 @@ function Testimonials() {
           <div className="col-md-4">
             <div className="card p-3 text-center px-4">
               <div className="user-image">
-                <img src={profile1} className="rounded-circle" width="80" />
+                <img src={profile1} className="rounded-circle" alt="Profile1" width="80" />
               </div>
               <div className="user-content">
                 <h5 className="mb-0">Bruce Hardy</h5>
@@ -33,7 +31,7 @@ function Testimonials() {
           <div className="col-md-4">
             <div className="card p-3 text-center px-4">
               <div className="user-image">
-                <img src={profile2} className="rounded-circle" width="80" />
+                <img src={profile2} className="rounded-circle" width="80" alt="Profile2" />
               </div>
               <div className="user-content">
                 <h5 className="mb-0">Mark Smith</h5>
@@ -53,7 +51,7 @@ function Testimonials() {
           <div className="col-md-4">
             <div className="card p-3 text-center px-4">
               <div className="user-image">
-                <img src={profile3} className="rounded-circle" width="80" />
+                <img src={profile3} className="rounded-circle" width="80" alt="Profile3" />
               </div>
               <div className="user-content">
                 <h5 className="mb-0">Veera Duncan</h5>
